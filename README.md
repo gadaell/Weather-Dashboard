@@ -5,6 +5,8 @@ AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 
+# Acceptance Criteria
+
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
@@ -16,11 +18,11 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
-![Screenshot](./css/images/screenshot-password-generator.PNG)
+![Screenshot]
 
 # Purpose
 
-A website that generates different passwords of your choice. You can change the options to how ever you like where it will give you password choices in lowercase, upppercase, special characters, and numeric.
+A website that generates the weather of different cities. It will displays the Temperature, Wind, UV Index and Humidity.
 
 ## Built with
 
@@ -30,19 +32,13 @@ A website that generates different passwords of your choice. You can change the 
 
 ## Challenges
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem
-  natus illo sunt quo vel recusandae tenetur, ipsam sed ipsum facere, eius
-  asperiores. Ratione quas perspiciatis itaque asperiores, veniam iste.
+- Not able to load it to my page. I think the API is giving me problems where I am not able to load the page properly. Please check out my code to see what I may be doing wrong. Thanks
 
 ## Website
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem
-  natus illo sunt quo vel recusandae tenetur, ipsam sed ipsum facere, eius
-  asperiores. Ratione quas perspiciatis itaque asperiores, veniam iste.
+- https://github.com/gadaell/Weather-Dashboard
 
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem
-  natus illo sunt quo vel recusandae tenetur, ipsam sed ipsum facere, eius
-  asperiores. Ratione quas perspiciatis itaque asperiores, veniam iste.
+* https://github.com/gadaell/Weather-Dashboard
 
 ## Contribution
 
