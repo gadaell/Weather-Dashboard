@@ -97,15 +97,13 @@ function searchCurrentCity(city) {
           // Step 5: remove the "hide class attribute" so that the icon shows when the city searched.
           currentDayIconEl.removeAttribute("class", "hide");
           //current Temp
-          //console.log(data.main.temp);
+
           document.getElementById("currentCityTemp").innerHTML =
             "Temp: " + data.main.temp + " °F";
           //current Wind
-          //console.log(data.wind.speed);
           document.getElementById("currentCityWind").innerHTML =
             "Wind: " + data.wind.speed + " mph";
           //current Humidity
-          //console.log(data.main.humidity);
           document.getElementById("currentCityHumidity").innerHTML =
             "Humidity: " + data.main.humidity + "%";
         });
