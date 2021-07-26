@@ -38,7 +38,7 @@ A website that generates the weather of different cities. It will displays the T
 
 - https://github.com/gadaell/Weather-Dashboard
 
-* https://github.com/gadaell/Weather-Dashboard
+* https://gadaell.github.io/Weather-Dashboard/
 
 ## Contribution
 
