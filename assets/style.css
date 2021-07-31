@@ -11,7 +11,7 @@
   display: none;
 }
 #search-box {
-  max-width: 1450px;
+  max-width: 2000px;
 }
 .low {
   background-color: green;
@@ -41,4 +41,18 @@
   background-color: violet;
   max-width: fit-content;
   color: black;
+}
+
+.savedCityButtons {
+  background: cadetblue;
+  font-size: large;
+  font-weight: 700;
+}
+#searchHistory {
+  margin: auto;
+}
+.savedCityButtons:hover {
+  background: darkblue;
+  transition: all 0.3s ease-in-out;
+  color: whitesmoke;
 }

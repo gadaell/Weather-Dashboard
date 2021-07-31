@@ -1,13 +1,13 @@
 var searchButton = document.getElementById("searchButton");
-var location = document.getElementById("location");
+var destination = document.getElementById("location");
 var fiveDayForecastEl = document.getElementById("five-day-forecast");
 
 var uvIndexEl = document.getElementById("currentCityUvindex");
 var nextFiveDayDates = [];
-//variable for local storage
+// variable for local storage
 var savedSearches = JSON.parse(localStorage.getItem("savedSearches") || "[]");
 
-//Event Listner for Search Button
+// //Event Listner for Search Button
 searchButton.addEventListener("click", handleSearchInput);
 searchButton.addEventListener("click", getSavedCities);
 searchButton.addEventListener("click", showFiveDayForecast);
@@ -19,7 +19,7 @@ function showFiveDayForecast() {
 
 //uvIndexEl.setAttribute("class", "low");
 
-//function to get the next five dates via moment.js.
+// function to get the next five dates via moment.js.
 function getNextFiveDays() {
   for (i = 0; i < 6; i++) {
     nextFiveDayDates[i] = moment().add(i, "days").format("M/DD/YYYY");
@@ -184,10 +184,10 @@ function fiveDayForecast(forecastResponse) {
   }
 }
 
-// Function that gets ran whent the search button is clicked to pass the city input into the api url.
+// // Function that gets ran whent the search button is clicked to pass the city input into the api url.
 function handleSearchInput(e) {
   e.preventDefault();
-  var searchedCity = location.value.trim();
+  var searchedCity = destination.value.trim();
   console.log(searchedCity);
   searchCurrentCity(searchedCity);
 
@@ -223,7 +223,8 @@ function getSavedCities() {
 }
 // get the values for Saved Cities from Local Storage and create Buttons.
 window.onload = function () {
-  getSavedCities();
+  // getSavedCities();
+  console.log("hello");
 };
 
 function displayCityAgain(city) {

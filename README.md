@@ -18,7 +18,7 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
-![Screenshot]
+![Weather-Dashboard\assets\images\weather-dashbord-screenshot.png]
 
 # Purpose
 
@@ -32,7 +32,7 @@ A website that generates the weather of different cities. It will displays the T
 
 ## Challenges
 
-- Not able to load it to my page. I think the API is giving me problems where I am not able to load the page properly. Please check out my code to see what I may be doing wrong. Thanks
+- My biggest challenge was trying to figure out why my JavaScript code was not working. I had to get with my tutor and we troubleshoot the whole code from bottom to top. One of my variable was named "location" and that was the issue. After I changed the name to "destination", everything started to work.
 
 ## Website
 
